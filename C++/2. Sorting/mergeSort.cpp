@@ -32,7 +32,6 @@ class Solution {
     }
     void mergeSort(vector<int>& arr, int l, int r) {
         
-        int length = arr.size();
         if(l == r){
             return;
         }
